@@ -1,16 +1,90 @@
-# React + Vite
+🗓️ TaskPlanner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Task Management App built with React + Vite that helps users organize, track, and complete their daily tasks efficiently.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Add, edit, and delete tasks
+✅ Track progress with a visual progress bar
+✅ Assign specific times for each task
+✅ Beautiful, colorful background and clean UI
+✅ Real-time updates using React state management
+✅ Persistent data storage (optional localStorage support)
 
-## React Compiler
+🧩 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend: React, Vite
 
-## Expanding the ESLint configuration
+Styling: CSS (Custom Styles + Flexbox/Grid)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+State Management: React Hooks (useState, useEffect)
+
+📁 Folder Structure
+TaskPlanner/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── Components/
+│   │   ├── TaskForm.jsx
+│   │   ├── TaskList.jsx
+│   │   └── ProgressTracker.jsx
+│   ├── App.jsx
+│   ├── Style.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+
+⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+# Clone the repository
+git clone https://github.com/charankumar-A/TaskPlanner.git
+
+# Navigate into the project directory
+cd TaskPlanner
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
+Your app will run at 👉 http://localhost:5173
+
+🧠 Future Enhancements
+
+Add user authentication (Firebase / Supabase)
+
+Dark mode theme
+
+Drag-and-drop task reordering
+
+Notification alerts for upcoming tasks
+
+Cloud sync between devices
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a new branch (feature/new-feature)
+
+Commit your changes
+
+Push to the branch
+
+Create a pull request
+
+🧑‍💻 Author
+
+Charan Kumar A
+🎨 Developer | 💡 Creator | 🌍 Open Source Enthusiast
+GitHub Profile
